@@ -1,3 +1,4 @@
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -5,11 +6,11 @@ public class EmployeePayroll {
   public static void main(String[] args) {
 
     List<Employee> employees = new ArrayList<>();
-    employees.add(new Employee("A", 10.1));
-    employees.add(new Employee("B", 30.1));
-    employees.add(new Employee("C", 50.1));
-    employees.add(new Employee("D", 40.1));
-    employees.add(new Employee("E", 1.1));
+    employees.add(new Employee("A", BigDecimal.valueOf(10.1)));
+    employees.add(new Employee("B", BigDecimal.valueOf(20.1)));
+    employees.add(new Employee("C", BigDecimal.valueOf(50.1)));
+    employees.add(new Employee("D", BigDecimal.valueOf(40.1)));
+    employees.add(new Employee("E", BigDecimal.valueOf(1.1)));
 
 //    Collections.sort(employees, (Employee e1, Employee e2) -> e1.getSalary().compareTo(e2.getSalary()));
 //    employees.stream().forEach(i-> System.out.println(i));
@@ -21,7 +22,7 @@ public class EmployeePayroll {
 //        .forEach(i-> System.out.println("is: "+i));
 
     //Chethan: i have used method reference, but then i had to create additional static method for comparision
-    //is adding additional method ok to use method reference?
+      //is adding additional method ok to use method reference?
     employees.stream()
         .sorted(Employee::compare)
         .forEach(i-> System.out.println("is: "+i));
@@ -42,9 +43,9 @@ class Employee {
   String name;
   //Anuj: Why would you not use BigDecimal to represent salary? What are the limitations of Double? Explore as an exercise.
   //Chethan: I didn't know about BigDecimal, but now i read about that.
-  Double salary;
+  BigDecimal salary;
 
-  Employee(String name, Double salary) {
+  Employee(String name, BigDecimal salary) {
     this.name = name;
     this.salary = salary;
   }
@@ -57,11 +58,11 @@ class Employee {
     this.name = name;
   }
 
-  public Double getSalary() {
+  public BigDecimal getSalary() {
     return salary;
   }
 
-  public void setSalary(Double salary) {
+  public void setSalary(BigDecimal salary) {
     this.salary = salary;
   }
 

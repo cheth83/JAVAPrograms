@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ecb15f8-dcf4-4f79-ad2d-cd0bfaedf773" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/EmployeePayroll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FrequencyOfItemsInList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MergeTwoLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmployeePayroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeePayroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FrequencyOfItemsInList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FrequencyOfItemsInList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +37,14 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FrequencyOfItemsInList">
+    <configuration name="FrequencyOfItemsInList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FrequencyOfItemsInList" />
+      <module name="JAVAPrograms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IntegerList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IntegerList" />
       <module name="JAVAPrograms" />
@@ -50,6 +54,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FrequencyOfItemsInList" />
         <item itemvalue="Application.IntegerList" />
       </list>
     </recent_temporary>
@@ -84,5 +89,25 @@
       <screen x="0" y="23" width="1440" height="800" />
     </state>
     <state x="184" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.800@0.23.1440.800" timestamp="1577433172805" />
+    <state x="458" y="178" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1577436071212">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state x="458" y="178" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1440.800@0.23.1440.800" timestamp="1577436071212" />
+    <state width="1398" height="271" key="GridCell.Tab.0.bottom" timestamp="1577444340460">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state width="1398" height="271" key="GridCell.Tab.0.bottom/0.23.1440.800@0.23.1440.800" timestamp="1577444340460" />
+    <state width="1398" height="271" key="GridCell.Tab.0.center" timestamp="1577444340459">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state width="1398" height="271" key="GridCell.Tab.0.center/0.23.1440.800@0.23.1440.800" timestamp="1577444340459" />
+    <state width="1398" height="271" key="GridCell.Tab.0.left" timestamp="1577444340458">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state width="1398" height="271" key="GridCell.Tab.0.left/0.23.1440.800@0.23.1440.800" timestamp="1577444340458" />
+    <state width="1398" height="271" key="GridCell.Tab.0.right" timestamp="1577444340460">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state width="1398" height="271" key="GridCell.Tab.0.right/0.23.1440.800@0.23.1440.800" timestamp="1577444340460" />
   </component>
 </project>
