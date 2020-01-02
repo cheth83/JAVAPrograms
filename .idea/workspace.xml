@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ecb15f8-dcf4-4f79-ad2d-cd0bfaedf773" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Temp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/set2/CountCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/set2/LargestChainInMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/set2/FindDuplicateEmployees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVAPrograms/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVAPrograms/EmployeePayroll.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVAPrograms/FrequencyOfItemsInList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVAPrograms/IntegerList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVAPrograms/MergeTwoLists.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVAPrograms/SortMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmployeePayroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/set1/EmployeePayroll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FrequencyOfItemsInList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/set1/FrequencyOfItemsInList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IntegerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/set1/IntegerList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/set1/MergeTwoLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/set1/SortMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVAPrograms/set1/SortMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVAPrograms/set1/SortMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/set2/CountCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/set2/CountCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/set2/LargestChainInMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/set2/LargestChainInMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +40,22 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
-  <component name="RunManager" selected="Application.LargestChainInMap">
+  <component name="RunManager" selected="Application.FindDuplicateEmployees">
     <configuration name="CountCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="set2.CountCharacters" />
+      <module name="JAVAPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="set2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindDuplicateEmployees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="set2.FindDuplicateEmployees" />
       <module name="JAVAPrograms" />
       <extension name="coverage">
         <pattern>
@@ -94,6 +96,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindDuplicateEmployees" />
         <item itemvalue="Application.LargestChainInMap" />
         <item itemvalue="Application.CountCharacters" />
         <item itemvalue="Application.FrequencyOfItemsInList" />
@@ -131,6 +134,10 @@
       <screen x="0" y="23" width="1440" height="800" />
     </state>
     <state x="184" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.800@0.23.1440.800" timestamp="1577433172805" />
+    <state x="533" y="147" key="#com.intellij.ide.util.MemberChooser" timestamp="1577978792598">
+      <screen x="0" y="23" width="1440" height="800" />
+    </state>
+    <state x="533" y="147" key="#com.intellij.ide.util.MemberChooser/0.23.1440.800@0.23.1440.800" timestamp="1577978792598" />
     <state x="458" y="178" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1577436071212">
       <screen x="0" y="23" width="1440" height="800" />
     </state>
@@ -139,25 +146,25 @@
       <screen x="0" y="23" width="1440" height="800" />
     </state>
     <state x="483" y="136" key="#xdebugger.evaluate/0.23.1440.800@0.23.1440.800" timestamp="1577690243688" />
-    <state width="1398" height="209" key="GridCell.Tab.0.bottom" timestamp="1577953685231">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1577979692786">
       <screen x="0" y="23" width="1440" height="800" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.bottom/0.23.1440.800@0.23.1440.800" timestamp="1577953685231" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.800@0.23.1440.800" timestamp="1577979692786" />
     <state width="1398" height="293" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1577699151557" />
-    <state width="1398" height="209" key="GridCell.Tab.0.center" timestamp="1577953685230">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1577979692785">
       <screen x="0" y="23" width="1440" height="800" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.center/0.23.1440.800@0.23.1440.800" timestamp="1577953685230" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.800@0.23.1440.800" timestamp="1577979692785" />
     <state width="1398" height="293" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1577699151556" />
-    <state width="1398" height="209" key="GridCell.Tab.0.left" timestamp="1577953685230">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1577979692785">
       <screen x="0" y="23" width="1440" height="800" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.left/0.23.1440.800@0.23.1440.800" timestamp="1577953685230" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.800@0.23.1440.800" timestamp="1577979692785" />
     <state width="1398" height="293" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1577699151556" />
-    <state width="1398" height="209" key="GridCell.Tab.0.right" timestamp="1577953685231">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1577979692785">
       <screen x="0" y="23" width="1440" height="800" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.right/0.23.1440.800@0.23.1440.800" timestamp="1577953685231" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.800@0.23.1440.800" timestamp="1577979692785" />
     <state width="1398" height="293" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1577699151557" />
     <state width="1398" height="305" key="GridCell.Tab.1.bottom" timestamp="1577949128657">
       <screen x="0" y="23" width="1440" height="800" />
@@ -203,27 +210,27 @@
       <screen x="0" y="23" width="1440" height="800" />
     </state>
     <state x="385" y="191" key="run.anything.popup/0.23.1440.800@0.23.1440.800" timestamp="1577949117642" />
-    <state x="385" y="147" width="670" height="676" key="search.everywhere.popup" timestamp="1577949036054">
+    <state x="385" y="147" width="670" height="676" key="search.everywhere.popup" timestamp="1577958492385">
       <screen x="0" y="23" width="1440" height="800" />
     </state>
-    <state x="385" y="147" width="670" height="676" key="search.everywhere.popup/0.23.1440.800@0.23.1440.800" timestamp="1577949036054" />
+    <state x="385" y="147" width="670" height="676" key="search.everywhere.popup/0.23.1440.800@0.23.1440.800" timestamp="1577958492385" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/set2/LargestChainInMap.java</url>
-          <line>32</line>
+          <line>50</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/set2/LargestChainInMap.java</url>
-          <line>46</line>
+          <line>64</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/set2/CountCharacters.java</url>
-          <line>36</line>
+          <line>38</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>

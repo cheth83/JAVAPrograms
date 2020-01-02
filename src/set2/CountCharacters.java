@@ -1,3 +1,5 @@
+//Given a string : aaabbcccc, convert it to form: a3b2c4 and then convert it back to aaabbcccc.
+
 package set2;
 
 public class CountCharacters {
