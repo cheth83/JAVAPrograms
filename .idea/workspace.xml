@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ecb15f8-dcf4-4f79-ad2d-cd0bfaedf773" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/set2/SegregateZeroAndOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/set2/UnNestArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVAPrograms/set2/CountCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVAPrograms/set2/CountCharacters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVAPrograms/set2/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVAPrograms/set2/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVAPrograms/set2/FindDuplicateEmployees.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVAPrograms/set2/FindDuplicateEmployees.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JAVAPrograms/set2/LargestChainInMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVAPrograms/set2/LargestChainInMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVAPrograms/set2/SegregateZeroAndOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVAPrograms/set2/SegregateZeroAndOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JAVAPrograms/set2/SegregateZeroAndOneClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JAVAPrograms/set2/SegregateZeroAndOneClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/set2/SegregateZeroAndOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/set2/SegregateZeroAndOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,25 +157,25 @@
       <screen x="0" y="23" width="1440" height="800" />
     </state>
     <state x="483" y="136" key="#xdebugger.evaluate/0.23.1440.800@0.23.1440.800" timestamp="1577690243688" />
-    <state width="1398" height="151" key="GridCell.Tab.0.bottom" timestamp="1578069482637">
+    <state width="1398" height="136" key="GridCell.Tab.0.bottom" timestamp="1578320971119">
       <screen x="0" y="23" width="1440" height="800" />
     </state>
-    <state width="1398" height="151" key="GridCell.Tab.0.bottom/0.23.1440.800@0.23.1440.800" timestamp="1578069482637" />
+    <state width="1398" height="136" key="GridCell.Tab.0.bottom/0.23.1440.800@0.23.1440.800" timestamp="1578320971119" />
     <state width="1398" height="293" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1577699151557" />
-    <state width="1398" height="151" key="GridCell.Tab.0.center" timestamp="1578069482636">
+    <state width="1398" height="136" key="GridCell.Tab.0.center" timestamp="1578320971118">
       <screen x="0" y="23" width="1440" height="800" />
     </state>
-    <state width="1398" height="151" key="GridCell.Tab.0.center/0.23.1440.800@0.23.1440.800" timestamp="1578069482636" />
+    <state width="1398" height="136" key="GridCell.Tab.0.center/0.23.1440.800@0.23.1440.800" timestamp="1578320971118" />
     <state width="1398" height="293" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1577699151556" />
-    <state width="1398" height="151" key="GridCell.Tab.0.left" timestamp="1578069482636">
+    <state width="1398" height="136" key="GridCell.Tab.0.left" timestamp="1578320971117">
       <screen x="0" y="23" width="1440" height="800" />
     </state>
-    <state width="1398" height="151" key="GridCell.Tab.0.left/0.23.1440.800@0.23.1440.800" timestamp="1578069482636" />
+    <state width="1398" height="136" key="GridCell.Tab.0.left/0.23.1440.800@0.23.1440.800" timestamp="1578320971117" />
     <state width="1398" height="293" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1577699151556" />
-    <state width="1398" height="151" key="GridCell.Tab.0.right" timestamp="1578069482637">
+    <state width="1398" height="136" key="GridCell.Tab.0.right" timestamp="1578320971118">
       <screen x="0" y="23" width="1440" height="800" />
     </state>
-    <state width="1398" height="151" key="GridCell.Tab.0.right/0.23.1440.800@0.23.1440.800" timestamp="1578069482637" />
+    <state width="1398" height="136" key="GridCell.Tab.0.right/0.23.1440.800@0.23.1440.800" timestamp="1578320971118" />
     <state width="1398" height="293" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1577699151557" />
     <state width="1398" height="305" key="GridCell.Tab.1.bottom" timestamp="1578046624358">
       <screen x="0" y="23" width="1440" height="800" />
@@ -228,10 +225,10 @@
       <screen x="0" y="23" width="1440" height="800" />
     </state>
     <state x="385" y="191" key="run.anything.popup/0.23.1440.800@0.23.1440.800" timestamp="1577949117642" />
-    <state x="385" y="147" width="670" height="676" key="search.everywhere.popup" timestamp="1578062984670">
+    <state x="385" y="147" width="670" height="676" key="search.everywhere.popup" timestamp="1578320804756">
       <screen x="0" y="23" width="1440" height="800" />
     </state>
-    <state x="385" y="147" width="670" height="676" key="search.everywhere.popup/0.23.1440.800@0.23.1440.800" timestamp="1578062984670" />
+    <state x="385" y="147" width="670" height="676" key="search.everywhere.popup/0.23.1440.800@0.23.1440.800" timestamp="1578320804756" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

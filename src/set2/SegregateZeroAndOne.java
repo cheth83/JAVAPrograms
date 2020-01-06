@@ -13,19 +13,41 @@ public class SegregateZeroAndOne {
 
   public static void main(String[] args) {
 
-    List<Integer> input = Arrays.asList(0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0);
+//    List<Integer> input = Arrays.asList(0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0);
+//    List<Integer> input = Arrays.asList(1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 1, 0);
+//    List<Integer> input = Arrays.asList(1, 1, 1, 1, 1, 0);
+//    List<Integer> input = Arrays.asList(1);
+//    List<Integer> input = Arrays.asList(0);
+//    List<Integer> input = Arrays.asList(1, 0);
+    List<Integer> input = Arrays.asList(1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 
     SegregateZeroAndOneClass obj = new SegregateZeroAndOneClass();
 //    obj.convert(input);
-    obj.convert2(input); //implemented in a different way
+//    obj.convert2(input); //implemented in a different way
+    obj.convert3(input);
   }
 }
 
-
 class SegregateZeroAndOneClass {
 
-  int zerosCount;
-  int onesCount;
+  int zerosCount, onesCount;
+
+  public void convert3(List<Integer> input) {
+    for (int i = 0; i < (input.size()-1); i++) {
+      if (input.get(i) == 0) {
+        continue;
+      }
+      for (int j = i+1; j < input.size(); j++) {
+        if (input.get(j) == 0) {
+          //swap value - as i know the values to swap i'm directly doing it
+          input.set(i, 0);
+          input.set(j, 1);
+          break;
+        }
+      }
+    }
+    System.out.println("in 3, input: " + input);
+  }
 
   public void convert(List<Integer> input) {
     long zeros = input.stream()
