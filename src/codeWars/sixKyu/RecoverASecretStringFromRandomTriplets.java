@@ -13,45 +13,6 @@ import java.util.stream.Collectors;
 public class RecoverASecretStringFromRandomTriplets {
   public static void main(String args[]) {
 
-//    triplets: gas
-//    triplets: ogs
-//    triplets: cnt
-//    triplets: con
-//    triplets: ats
-//    triplets: grt
-//    triplets: rts
-//    triplets: cra
-//    triplets: gat
-//    triplets: ngs
-//    triplets: oas
-//    char[][] triplets = {
-//        {'g','a','s'},
-//        {'o','g','s'},
-//        {'c','n','t'},
-//        {'c','o','n'},
-//        {'a','t','s'},
-//        {'g','r','t'},
-//        {'r','t','s'},
-//        {'c','r','a'}
-//    };
-
-//    triplets: tsf
-//    triplets: asu
-//    triplets: maf
-//    triplets: ain
-//    triplets: sun
-//    triplets: mfu
-//    triplets: ath
-//    triplets: thi
-//    triplets: hif
-//    triplets: mhf
-//    triplets: aun
-//    triplets: mat
-//    triplets: fun
-//    triplets: hsn
-//    triplets: ais
-//    triplets: msn
-//    triplets: msu
 //    char[][] triplets = {
 //        {'t','s','f'},
 //        {'a','s','u'},
@@ -81,18 +42,32 @@ public class RecoverASecretStringFromRandomTriplets {
         {'w','h','s'}
     };
 
-
-
-
     System.out.println(recoverSecret(triplets));
-//    recoverSecret(triplets);
-//    List<String> combinations = new ArrayList<>();
-//    combinations.add("hatisup");
-//    combinations.add("hatsiup");
-//    combinations.add("hatsuip");
-//    combinations.add("hatsupi");
-//    validateCombinations(combinations, 'i', 's', 1);
+  }
 
+  public static String recoverSecret(char[][] triplets) {
+    List<Character> wordList = new LinkedList<>();
+    for (char[] triplet : triplets) {
+      int pIndex = -1;
+      for (int i = 0; i < 3; i++) {
+        int cIndex = wordList.indexOf(triplet[i]);
+        if (cIndex != -1) {
+          if (pIndex > cIndex) {
+            Character removed = wordList.remove(cIndex);
+            wordList.add(pIndex, removed);
+            cIndex = pIndex;
+          }
+          pIndex = cIndex;
+        } else if (pIndex != -1) {
+          pIndex += 1;
+          wordList.add(pIndex, triplet[i]);
+        } else {
+          wordList.add(0, triplet[i]);
+          pIndex = 0;
+        }
+      }
+    }
+    return wordList.stream().map(ch -> ch.toString()).reduce((p,n) -> p + n).get();
   }
 
 
@@ -225,12 +200,6 @@ public class RecoverASecretStringFromRandomTriplets {
   }
 
 
-
-
-
-
-
-
   public static String recoverSecret1(char[][] triplets) {
 
     String str = "";
@@ -336,31 +305,6 @@ public class RecoverASecretStringFromRandomTriplets {
   }
 
 
-  public static String recoverSecret(char[][] triplets) {
-    List<Character> wordList = new LinkedList<>();
-    for (char[] triplet : triplets) {
-      int pIndex = -1;
-      for (int i = 0; i < 3; i++) {
-        int cIndex = wordList.indexOf(triplet[i]);
-        if (cIndex != -1) {
-          if (pIndex > cIndex) {
-            Character removed = wordList.remove(cIndex);
-            wordList.add(pIndex, removed);
-            cIndex = pIndex;
-          }
-          pIndex = cIndex;
-        } else if (pIndex != -1) {
-          pIndex += 1;
-          wordList.add(pIndex, triplet[i]);
-        } else {
-          wordList.add(0, triplet[i]);
-          pIndex = 0;
-        }
-      }
-    }
-
-    return wordList.stream().map(ch -> ch.toString()).reduce((p,n) -> p + n).get();
-  }
 
 
 
