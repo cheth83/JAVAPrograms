@@ -26,18 +26,19 @@ public class FindDuplicateEmployees {
 
     System.out.println("employee list" + employeeList);
 
-    Set<Employee> s = new TreeSet<>(employeeList);
-    System.out.println("Set employee list" + s);
+    //if we want to use TreeSet, then class should implement comparable and override compareTo method
+//    Set<Employee> s = new TreeSet<>(employeeList);
+//    System.out.println("Set employee list" + s);
 
 //    HashSet doesn't remove duplicates
-//    Set<Employee> s1 = new HashSet<>(employeeList);
-//    System.out.println("Set employee list" + s1);
+    Set<Employee> s1 = new HashSet<>(employeeList);
+    System.out.println("Set employee list" + s1);
+
 
   }
-
 }
 
-class Employee implements Comparable<Employee> {
+class Employee /*implements Comparable<Employee> */{
 
   int id;
   String name;
@@ -51,7 +52,6 @@ class Employee implements Comparable<Employee> {
     this.salary = salary;
   }
 
-  @Override
   public String toString() {
     return "\nEmployee{" +
         "id=" + id +
@@ -62,6 +62,22 @@ class Employee implements Comparable<Employee> {
   }
 
   @Override
+  public int hashCode() {
+    return id;
+  }
+
+  @Override
+  public boolean equals(Object obj) {
+    if (obj == null) return false;
+    if ( !(obj instanceof Employee) ) return false;
+    if (obj == this)  return true;
+    return this.getId() == ((Employee) obj).getId();
+  }
+
+  public int getId() {
+    return id;
+  }
+/*@Override
   public int compareTo(Employee e) {
 
 //    Chethan: compare based on employee id
@@ -77,6 +93,6 @@ class Employee implements Comparable<Employee> {
 //      return 1;
 //    else
 //      return -1;
-  }
+  }*/
 
 }
